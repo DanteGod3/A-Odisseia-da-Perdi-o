@@ -1,0 +1,69 @@
+body {
+    background-color: #121212; /* Cor de fundo escura, remetendo à vida urbana */
+    color: #E5E5E5; /* Texto em cinza claro para contraste */
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total da viewport */
+    margin: 0;
+}
+
+button {
+    background-color: #FF5A00; /* Cor laranja vibrante, referência às cores da cidade */
+    color: #FFFFFF;
+    font-family: inherit;
+    padding: 12px 24px; /* Padding maior para destaque */
+    border: none;
+    border-radius: 8px; /* Cantos mais arredondados */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #E64A00; /* Cor de hover um pouco mais escura */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 85%; /* Mais largura para melhor leitura */
+    margin: 0 auto;
+    line-height: 1.6; /* Melhor espaçamento entre linhas */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Tema São Paulo */
+header {
+    background-image: url('sao-paulo-skyline.jpg'); /* Coloque aqui o caminho para uma imagem do skyline de SP */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Altura do cabeçalho */
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra para destaque do texto */
+}
+
+footer {
+    background-color: #1E1E1E; /* Rodapé com fundo escuro */
+    color: #E5E5E5;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}

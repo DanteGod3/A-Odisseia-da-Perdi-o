@@ -1,0 +1,45 @@
+body {
+    background-color: #1D4221;
+    color: #FFFFFF;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste para ocupar toda a altura da viewport */
+    margin: 0;
+}
+
+button {
+    background-color: #64A712;
+    color: #FFFFFF;
+    font-family: inherit; /* Inherit para herdar a fonte do body */
+    padding: 10px 20px; /* Adicionei padding para melhor usabilidade */
+    border: none; /* Remove bordas */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Muda o cursor ao passar por cima */
+    transition: background-color 0.3s ease; /* Transição suave ao mudar cor */
+}
+
+button:hover {
+    background-color: #558F0F; /* Cor mais escura ao passar o mouse */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 80%; /* Ajuste para melhor legibilidade em telas menores */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+img {
+    max-width: 100%; /* Imagens ocupam toda a largura disponível */
+    height: auto; /* Mantém proporção da imagem */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+}
